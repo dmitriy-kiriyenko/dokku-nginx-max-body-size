@@ -20,4 +20,4 @@ Add a configuration variable `MAX_UPLOAD_SIZE` with a value in Nginx format.
 $ dokku config your-app MAX_UPLOAD_SIZE=100M
 ```
 
-If you remove this value, `client-max-body-size` will get back to default value.
+If you remove this variable, `client-max-body-size` will get back to default value.
